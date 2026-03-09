@@ -2,29 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-		 <!-- Add screenshot protection info -->
-  	<key>NSPhotoLibraryUsageDescription</key>
-  	<string>This app needs to detect screenshots for security purposes.</string>
-
- 	<key>UIRequiredDeviceCapabilities</key>
-  	<array>
-    <string>armv7</string>
- 	</array>
-
-  <!-- Prevent screenshots in app switcher -->
-  	<key>UIApplicationSupportsMultipleScenes</key>
-  	<false/>
-
-  	<key>LSRequiresIPhoneOS</key>
-  	<true/>
-
-  <!-- Security settings -->
-  	<key>flutter_screenshot_blocker</key>
-  	<dict>
-    <key>enable_protection</key>
-    <true/>
-    <key>show_security_warning</key>
-    <true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
