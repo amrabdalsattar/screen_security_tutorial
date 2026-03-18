@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:screen_security_tutorial/core/extension/extensions.dart';
 import 'package:screen_security_tutorial/privacy_secured_screen.dart';
 
 void main() {
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Screen Security Tutorial',
 
-      home: const PrivacySecuredScreen().secure(),
+      home: const PrivacySecuredScreen(),
     );
   }
 }

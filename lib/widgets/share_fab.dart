@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:screen_security_tutorial/core/capture_widget_helper.dart';
-import 'package:screen_security_tutorial/widgets/privacy_screen_content.dart';
 
 class ShareFAB extends StatelessWidget {
   const ShareFAB({super.key});
@@ -10,11 +8,7 @@ class ShareFAB extends StatelessWidget {
     return FloatingActionButton(
       backgroundColor: Color(0xFF00B050),
       foregroundColor: Colors.white,
-      onPressed:
-          () => CaptureWidgetHelper.shareWidget(
-            PrivacyScreenContent(isSecured: true),
-            context,
-          ),
+      onPressed: () {},
       child: Icon(Icons.share),
     );
   }
